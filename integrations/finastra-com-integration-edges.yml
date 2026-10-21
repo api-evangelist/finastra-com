@@ -1,0 +1,20 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/finastra-com/integrations
+- https://zapier.com/apps/finastra/integrations
+- https://n8n.io/integrations/finastra-com/
+- https://n8n.io/integrations/finastra/
+- https://composio.dev/toolkits/finastra-com
+- https://monid.ai/tools/finastra-com
+checked:
+- https://composio.dev/toolkits/finastra-com
+- https://monid.ai/tools/finastra-com
+- https://n8n.io/integrations/finastra-com/
+- https://n8n.io/integrations/finastra/
+- https://zapier.com/apps/finastra-com/integrations
+- https://zapier.com/apps/finastra/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

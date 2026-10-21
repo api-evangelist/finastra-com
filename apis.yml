@@ -1,23 +1,59 @@
 aid: finastra-com
+
 name: Finastra
-description: 'Finastra is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.finastra.com/themes/custom/themekit/logo-v2.png
+
+description: 'Finastra is a global financial software provider delivering a broad portfolio of banking, payments, lending and treasury solutions. Their platform enables banks and fintechs to innovate faster, improve customer experiences, and streamline operations across digital channels.'
+
 url: https://raw.githubusercontent.com/api-evangelist/finastra-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- Financial Services
+- Banking Software
+- Payments
+- FinTech
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: WellKnown
+  url: well-known/finastra-com-well-known.yml
+- type: Hosts
+  url: hosts/finastra-com-hosts.yml
+- type: TermsOfService
+  url: https://www.finastra.com/terms-conditions
+- type: Support
+  url: https://support.finastra.com/s/
+- type: PrivacyPolicy
+  url: https://www.finastra.com/privacy-policy
+- type: DomainSecurity
+  url: security/finastra-com-domain-security.yml
 - type: Website
   url: https://finastra.com/
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
